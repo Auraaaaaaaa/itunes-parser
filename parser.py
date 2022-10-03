@@ -2,6 +2,7 @@ import pandas as pd
 import spotdl
 import os
 import xml.etree.ElementTree as ET
+folder_exists = False
 lib = r"Library.xml"
 tree = ET.parse(lib)
 root = tree.getroot()
@@ -41,14 +42,12 @@ with open("tracks.txt", "w") as f:
                 break
             itr += 2
 with open("tracks.txt", 'r') as f:
+    os.mkdir("output")
+    os.chdir("output")
     for line in f:
-        if os.path.exists("output"):
-            os.chdir("output")
-        else:
-            os.mkdir("output")
-            os.chdir("output")
         os.system("python3 -m spotdl --output-format mp3 --lyrics-provider genius '" + line + "\'")
         print("Downloaded " + line)
-os.remove("tracks.txt")
 os.remove(".spotdl-cache")
+os.chdir("..")
+os.remove("tracks.txt")
 print("Done")
