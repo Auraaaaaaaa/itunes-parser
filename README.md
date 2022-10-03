@@ -10,7 +10,8 @@ Install dependencies:
 ```bash
 pip install -r requrements.txt
 ```
-
-Place iTunes library XML in the same directory as the script
+Export your iTunes library XML to the same folder as the script (File > Library > Export library)
 
 Run the script
+
+Output MP3's will be in the 'output' folder
