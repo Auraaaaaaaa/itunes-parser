@@ -1,7 +1,6 @@
 # iTunes Library xml parser
 
-Takes your iTunes Library and spits out a nicely formatted text list of all your songs
-
+Takes your iTunes Library and downloads the mp3 file (with metadata) for each song
 
 
 ### Usage
