@@ -15,3 +15,5 @@ Export your iTunes library XML to the same folder as the script (File > Library 
 Run the script
 
 Output MP3's will be in the 'output' folder
+
+## This script may take several hours to run!
