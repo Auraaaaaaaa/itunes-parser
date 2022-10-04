@@ -8,7 +8,7 @@ Takes your iTunes Library and downloads the mp3 file (with metadata) for each so
 Install dependencies: 
 
 ```bash
-pip install -r requrements.txt
+pip install -r requirements.txt
 ```
 Export your iTunes library XML to the same folder as the script (File > Library > Export library)
 
