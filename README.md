@@ -17,3 +17,5 @@ Run the script
 Output MP3's will be in the 'output' folder
 
 ## This script may take several hours to run!
+
+There is an auto-image resizer tool, to let the album art work with rockbox
