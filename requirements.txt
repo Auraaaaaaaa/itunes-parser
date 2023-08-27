@@ -1,5 +1,7 @@
-pandas
-spotdl
+deemix
 ffmpeg
 eyed3
 pillow
+deezer-py
+requests
+re
